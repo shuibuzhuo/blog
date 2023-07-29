@@ -1,4 +1,4 @@
-# Markdown Extension Examples 200
+# Markdown Extension Examples - Vue
 
 This page demonstrates some of the built-in markdown extensions provided by VitePress.
 

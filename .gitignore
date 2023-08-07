@@ -25,3 +25,6 @@ yarn-error.log*
 # 忽略一些不必要的文件类型
 *.DS_Store
 Thumbs.db
+
+# 缓存文件
+docs/.vitepress/cache/

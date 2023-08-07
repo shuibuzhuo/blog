@@ -11,6 +11,7 @@ export default defineConfig({
       { text: '分类', items: [
           { text: 'Vue', link: '/vue/markdown-examples'},
           { text: 'React', link: '/react/markdown-examples3'},
+          { text: '算法', link: '/algorithm/what-is-complexity'}
         ] 
     }
     ],
@@ -34,6 +35,19 @@ export default defineConfig({
           ]
         }
       ],
+      '/algorithm': [
+        {
+          text: '文章',
+          items: [
+            { text: '什么是复杂度', link: '/algorithm/what-is-complexity' },
+            { text: '时间复杂度', link: '/algorithm/time-complexity' },
+          ]
+        }
+      ]
+    },
+
+    search: {
+      provider: 'local'
     },
 
     socialLinks: [

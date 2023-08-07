@@ -37,7 +37,7 @@ export default defineConfig({
       ],
       '/algorithm': [
         {
-          text: '复杂度',
+          text: '【基础】复杂度',
           collapsed: true,
           items: [
             { text: '什么是复杂度', link: '/algorithm/complexity/what-is-complexity' },
@@ -47,12 +47,21 @@ export default defineConfig({
           ]
         },
         {
-          text: '算法题1',
+          text: '【题目】把一个数组旋转 k 步',
           collapsed: true,
           items: [
-            { text: '11', link: '/algorithm/problems/1' },
-            { text: '22', link: '/algorithm/problems/2' },
-            { text: '33', link: '/algorithm/problems/3' },
+            { text: '1-1', link: '/algorithm/problems/1/1' },
+            { text: '1-2', link: '/algorithm/problems/1/2' },
+            { text: '1-3', link: '/algorithm/problems/1/3' },
+          ]
+        },
+        {
+          text: '算法题2',
+          collapsed: true,
+          items: [
+            { text: '2-1', link: '/algorithm/problems/2/1' },
+            { text: '2-2', link: '/algorithm/problems/2/2' },
+            { text: '2-3', link: '/algorithm/problems/2/3' },
           ]
         },
       ]

@@ -41,6 +41,7 @@ export default defineConfig({
           items: [
             { text: '什么是复杂度', link: '/algorithm/what-is-complexity' },
             { text: '时间复杂度', link: '/algorithm/time-complexity' },
+            { text: '空间复杂度', link: '/algorithm/space-complexity' },
           ]
         }
       ]

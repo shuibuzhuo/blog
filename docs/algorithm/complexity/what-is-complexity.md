@@ -6,4 +6,4 @@
 - 一般是针对一个具体的算法，而不是一个完整的系统
 
 ## 常见的复杂度
-![常见的复杂度](../assets/what-is-complexity/common-complexity.png)
+![常见的复杂度](/assets/what-is-complexity/common-complexity.png)

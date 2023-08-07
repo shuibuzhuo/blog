@@ -11,7 +11,7 @@ export default defineConfig({
       { text: '分类', items: [
           { text: 'Vue', link: '/vue/markdown-examples'},
           { text: 'React', link: '/react/markdown-examples3'},
-          { text: '算法', link: '/algorithm/what-is-complexity'}
+          { text: '算法', link: '/algorithm/complexity/what-is-complexity'}
         ] 
     }
     ],
@@ -37,13 +37,24 @@ export default defineConfig({
       ],
       '/algorithm': [
         {
-          text: '文章',
+          text: '复杂度',
+          collapsed: true,
           items: [
-            { text: '什么是复杂度', link: '/algorithm/what-is-complexity' },
-            { text: '时间复杂度', link: '/algorithm/time-complexity' },
-            { text: '空间复杂度', link: '/algorithm/space-complexity' },
+            { text: '什么是复杂度', link: '/algorithm/complexity/what-is-complexity' },
+            { text: '时间复杂度', link: '/algorithm/complexity/time-complexity' },
+            { text: '空间复杂度', link: '/algorithm/complexity/space-complexity' },
+            { text: '总结', link: '/algorithm/complexity/summary' },
           ]
-        }
+        },
+        {
+          text: '算法题1',
+          collapsed: true,
+          items: [
+            { text: '11', link: '/algorithm/problems/1' },
+            { text: '22', link: '/algorithm/problems/2' },
+            { text: '33', link: '/algorithm/problems/3' },
+          ]
+        },
       ]
     },
 

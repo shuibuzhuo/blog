@@ -50,20 +50,23 @@ export default defineConfig({
           text: '【题目】把一个数组旋转 k 步',
           collapsed: true,
           items: [
-            { text: '1-1', link: '/algorithm/problems/1_把一个数组旋转 k 步/1' },
-            { text: '1-2', link: '/algorithm/problems/1/2' },
-            { text: '1-3', link: '/algorithm/problems/1/3' },
+            { text: '解题', link: '/algorithm/problems/1_把一个数组旋转 k 步/1' }
           ]
         },
         {
-          text: '算法题2',
+          text: '【题目】判断一个字符串是否括号匹配',
           collapsed: true,
           items: [
-            { text: '2-1', link: '/algorithm/problems/2/1' },
-            { text: '2-2', link: '/algorithm/problems/2/2' },
-            { text: '2-3', link: '/algorithm/problems/2/3' },
+            { text: '解题', link: '/algorithm/problems/2_判断一个字符串是否括号匹配/1' },
           ]
         },
+        {
+          text: '【题目】用两个栈实现一个队列',
+          collapsed: true,
+          items: [
+            { text: '解题', link: '/algorithm/problems/3_用两个栈实现一个队列/1' },
+          ]
+        }
       ]
     },
 

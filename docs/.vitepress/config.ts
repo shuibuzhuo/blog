@@ -50,7 +50,7 @@ export default defineConfig({
           text: '【题目】把一个数组旋转 k 步',
           collapsed: true,
           items: [
-            { text: '1-1', link: '/algorithm/problems/1/1' },
+            { text: '1-1', link: '/algorithm/problems/1_把一个数组旋转 k 步/1' },
             { text: '1-2', link: '/algorithm/problems/1/2' },
             { text: '1-3', link: '/algorithm/problems/1/3' },
           ]

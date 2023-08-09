@@ -66,6 +66,13 @@ export default defineConfig({
           items: [
             { text: '解题', link: '/algorithm/problems/3_用两个栈实现一个队列/1' },
           ]
+        },
+        {
+          text: '【题目】反转单向链表',
+          collapsed: true,
+          items: [
+            { text: '解题', link: '/algorithm/problems/4_反转单向链表/1' },
+          ]
         }
       ]
     },

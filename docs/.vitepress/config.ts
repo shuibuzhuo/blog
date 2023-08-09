@@ -50,28 +50,29 @@ export default defineConfig({
           text: '【题目】把一个数组旋转 k 步',
           collapsed: true,
           items: [
-            { text: '解题', link: '/algorithm/problems/1_把一个数组旋转 k 步/1' }
+            { text: '解题', link: '/algorithm/problems/1_把一个数组旋转 k 步/1_解题' }
           ]
         },
         {
           text: '【题目】判断一个字符串是否括号匹配',
           collapsed: true,
           items: [
-            { text: '解题', link: '/algorithm/problems/2_判断一个字符串是否括号匹配/1' },
+            { text: '解题', link: '/algorithm/problems/2_判断一个字符串是否括号匹配/1_解题' },
           ]
         },
         {
           text: '【题目】用两个栈实现一个队列',
           collapsed: true,
           items: [
-            { text: '解题', link: '/algorithm/problems/3_用两个栈实现一个队列/1' },
+            { text: '解题', link: '/algorithm/problems/3_用两个栈实现一个队列/1_解题' },
           ]
         },
         {
           text: '【题目】反转单向链表',
           collapsed: true,
           items: [
-            { text: '解题', link: '/algorithm/problems/4_反转单向链表/1' },
+            { text: '链表的概念', link: '/algorithm/problems/4_反转单向链表/1_链表的概念' },
+            { text: '解题', link: '/algorithm/problems/4_反转单向链表/2_解题' },
           ]
         }
       ]

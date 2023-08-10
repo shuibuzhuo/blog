@@ -73,6 +73,7 @@ export default defineConfig({
           items: [
             { text: '链表的概念', link: '/algorithm/problems/4_反转单向链表/1_链表的概念' },
             { text: '解题', link: '/algorithm/problems/4_反转单向链表/2_解题' },
+            { text: '【扩展】链表和数组，哪个实现队列更快', link: '/algorithm/problems/4_反转单向链表/3_【扩展】链表和数组，哪个实现队列更快' },
           ]
         }
       ]

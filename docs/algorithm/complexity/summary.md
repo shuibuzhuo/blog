@@ -6,7 +6,7 @@
 
 ## 注意
 再次回顾下这张复杂度的图
-![常见的复杂度](/assets/what-is-complexity/common-complexity.png)
+![常见的复杂度](./common-complexity.png)
 
 - 如果说达到了 O(n^2) 的级别，那么这个算法基本是不可用的！！
 - 实际情况下，一个算法应该要保证至少是 O(n) 的复杂度，比较好的情况是能达到 O(logn)

@@ -41,7 +41,7 @@ function fn(arr = []) {
 
 ### O(logn) 数量级的对数（数量级）
 二分
-![二分](/assets/time-complexity/二分.png)
+![二分](./二分.png)
 
 ### O(nlogn) 数据量 * 数据量的对数（数量级）
 ```javascript

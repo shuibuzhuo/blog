@@ -76,6 +76,14 @@ export default defineConfig({
             { text: '解题', link: '/algorithm/problems/4_反转单向链表/2_解题' },
             { text: '【扩展】链表和数组，哪个实现队列更快', link: '/algorithm/problems/4_反转单向链表/3_【扩展】链表和数组，哪个实现队列更快' },
           ]
+        },
+        {
+          text: '【题目】二分查找',
+          collapsed: true,
+          items: [
+            { text: '【概念】二分查找', link: '/algorithm/problems/5_二分查找/1_【概念】二分查找' },
+            { text: '解题', link: '/algorithm/problems/5_二分查找/2_解题' },
+          ]
         }
       ]
     },

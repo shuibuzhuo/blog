@@ -91,10 +91,17 @@ export default defineConfig({
           items: [
             { text: '解题', link: '/algorithm/problems/6_两数之和/1_解题' },
           ]
+        },
+        {
+          text: '【题目】求二叉搜索树的第 K 小的值',
+          collapsed: true,
+          items: [
+            { text: '概念', link: '/algorithm/problems/7_二叉搜索树/1_概念'},
+            { text: '解题', link: '/algorithm/problems/7_二叉搜索树/2_解题'}
+          ]
         }
       ]
     },
-
     search: {
       provider: 'local'
     },

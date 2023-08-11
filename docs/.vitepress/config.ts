@@ -84,6 +84,13 @@ export default defineConfig({
             { text: '【概念】二分查找', link: '/algorithm/problems/5_二分查找/1_【概念】二分查找' },
             { text: '解题', link: '/algorithm/problems/5_二分查找/2_解题' },
           ]
+        },
+        {
+          text: '【题目】两数之和',
+          collapsed: true,
+          items: [
+            { text: '解题', link: '/algorithm/problems/6_两数之和/1_解题' },
+          ]
         }
       ]
     },

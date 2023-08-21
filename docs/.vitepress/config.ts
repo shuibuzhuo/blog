@@ -99,6 +99,13 @@ export default defineConfig({
             { text: '概念', link: '/algorithm/problems/7_二叉搜索树/1_概念'},
             { text: '解题', link: '/algorithm/problems/7_二叉搜索树/2_解题'}
           ]
+        },
+        {
+          text: '【题目】为何二叉树重要，而不是三叉树、四叉树',
+          collapsed: true,
+          items: [
+            { text: '解题', link: '/algorithm/problems/8_为何二叉树重要/1_解题' }  
+          ]
         }
       ]
     },

@@ -107,7 +107,15 @@ export default defineConfig({
             { text: '解题', link: '/algorithm/problems/8_为何二叉树重要/1_解题' },
             { text: '堆和二叉树', link: '/algorithm/problems/8_为何二叉树重要/2_堆和二叉树' },
           ]
-        }
+        },
+        {
+          text: '【题目】斐波那契数列',
+          collapsed: true,
+          items: [
+            { text: '概念', link: '/algorithm/problems/9_斐波那契数列/1_概念' },
+            { text: '解题', link: '/algorithm/problems/9_斐波那契数列/2_解题' },
+          ]
+        },
       ]
     },
     search: {

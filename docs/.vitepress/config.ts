@@ -104,7 +104,8 @@ export default defineConfig({
           text: '【题目】为何二叉树重要，而不是三叉树、四叉树',
           collapsed: true,
           items: [
-            { text: '解题', link: '/algorithm/problems/8_为何二叉树重要/1_解题' }  
+            { text: '解题', link: '/algorithm/problems/8_为何二叉树重要/1_解题' },
+            { text: '堆和二叉树', link: '/algorithm/problems/8_为何二叉树重要/2_堆和二叉树' },
           ]
         }
       ]

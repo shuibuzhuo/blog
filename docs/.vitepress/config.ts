@@ -116,6 +116,13 @@ export default defineConfig({
             { text: '解题', link: '/algorithm/problems/9_斐波那契数列/2_解题' },
           ]
         },
+        {
+          text: '【题目】移动 0 到末尾',
+          collapsed: true,
+          items: [
+            { text: '解题', link: '/algorithm/problems/10_移动0/1_解题'}
+          ]
+        }
       ]
     },
     search: {

@@ -11,7 +11,8 @@ export default defineConfig({
       { text: '分类', items: [
           { text: 'Vue', link: '/vue/markdown-examples'},
           { text: 'React', link: '/react/markdown-examples3'},
-          { text: '算法', link: '/algorithm/complexity/what-is-complexity'}
+          { text: '算法', link: '/algorithm/complexity/what-is-complexity'},
+          { text: 'TypeScript', link: '/ts/基础/1_变量声明'}
         ] 
     }
     ],
@@ -123,6 +124,19 @@ export default defineConfig({
             { text: '解题', link: '/algorithm/problems/10_移动0/1_解题'}
           ]
         }
+      ],
+      '/ts': [
+        {
+          text: 'TS基础',
+          collapsed: true,
+          items: [
+            { text: '变量声明', link: '/ts/基础/1_变量声明' },
+            { text: '类型简介', link: '/ts/基础/2_类型简介' },
+            { text: '数字类型', link: '/ts/基础/3_数字类型' },
+            { text: '字符串类型', link: '/ts/基础/4_字符串类型' },
+            { text: '布尔类型', link: '/ts/基础/5_布尔类型' },
+          ]
+        },
       ]
     },
     search: {

@@ -135,6 +135,8 @@ export default defineConfig({
             { text: '数字类型', link: '/ts/基础/3_数字类型' },
             { text: '字符串类型', link: '/ts/基础/4_字符串类型' },
             { text: '布尔类型', link: '/ts/基础/5_布尔类型' },
+            { text: '数组类型', link: '/ts/基础/6_数组类型' },
+            { text: '元组类型', link: '/ts/基础/7_元组类型' },
           ]
         },
       ]

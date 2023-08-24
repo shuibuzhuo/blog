@@ -172,6 +172,16 @@ export default defineConfig({
             },
           ],
         },
+        {
+          text: "【题目】快速排序",
+          collapsed: true,
+          items: [
+            {
+              text: "解题",
+              link: "/algorithm/problems/12_快速排序/1_解题",
+            },
+          ],
+        },
       ],
       "/ts": [
         {

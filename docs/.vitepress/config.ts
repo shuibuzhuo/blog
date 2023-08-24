@@ -192,6 +192,16 @@ export default defineConfig({
             },
           ],
         },
+        {
+          text: "【题目】字符串前缀匹配",
+          collapsed: true,
+          items: [
+            {
+              text: "解题",
+              link: "/algorithm/problems/14_字符串前缀匹配/1_解题",
+            },
+          ],
+        },
       ],
       "/ts": [
         {

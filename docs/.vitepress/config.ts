@@ -123,6 +123,13 @@ export default defineConfig({
           items: [
             { text: '解题', link: '/algorithm/problems/10_移动0/1_解题'}
           ]
+        },
+        {
+          text: '【题目】连续最多的字符',
+          collapsed: true,
+          items: [
+            { text: '解题', link: '/algorithm/problems/11_连续最多的字符/1_解题'}
+          ]
         }
       ],
       '/ts': [

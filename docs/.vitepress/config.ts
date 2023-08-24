@@ -182,6 +182,16 @@ export default defineConfig({
             },
           ],
         },
+        {
+          text: "【题目】回文数字",
+          collapsed: true,
+          items: [
+            {
+              text: "解题",
+              link: "/algorithm/problems/13_回文数字/1_解题",
+            },
+          ],
+        },
       ],
       "/ts": [
         {
@@ -198,6 +208,7 @@ export default defineConfig({
             { text: "元组类型", link: "/ts/基础/7_元组类型" },
             { text: "联合类型", link: "/ts/基础/8_联合类型" },
             { text: "枚举", link: "/ts/基础/9_枚举" },
+            { text: "any和unknown", link: "/ts/基础/10_any和unknown" },
           ],
         },
       ],

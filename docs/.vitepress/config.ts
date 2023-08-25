@@ -267,6 +267,10 @@ export default defineConfig({
             { text: "联合类型", link: "/ts/基础/8_联合类型" },
             { text: "枚举", link: "/ts/基础/9_枚举" },
             { text: "any和unknown", link: "/ts/基础/10_any和unknown" },
+            {
+              text: "void、undefined和never",
+              link: "/ts/基础/11_void、undefined和never",
+            },
           ],
         },
       ],

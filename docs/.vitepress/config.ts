@@ -202,6 +202,54 @@ export default defineConfig({
             },
           ],
         },
+        {
+          text: "【题目】数字千分位",
+          collapsed: true,
+          items: [
+            {
+              text: "解题",
+              link: "/algorithm/problems/15_数字千分位/1_解题",
+            },
+          ],
+        },
+        {
+          text: "【题目】切换字母大小写",
+          collapsed: true,
+          items: [
+            {
+              text: "解题",
+              link: "/algorithm/problems/16_切换字母大小写/1_解题",
+            },
+          ],
+        },
+        {
+          text: "【题目】小数相加",
+          collapsed: true,
+          items: [
+            {
+              text: "解题",
+              link: "/algorithm/problems/17_小数相加/1_解题",
+            },
+          ],
+        },
+        {
+          text: "最后",
+          collapsed: true,
+          items: [
+            {
+              text: "总结",
+              link: "/algorithm/problems/18_最后/1_总结",
+            },
+            {
+              text: "常见的数据结构",
+              link: "/algorithm/problems/18_最后/2_常见的数据结构",
+            },
+            {
+              text: "常见的时间复杂度",
+              link: "/algorithm/problems/18_最后/3_常见的时间复杂度",
+            },
+          ],
+        },
       ],
       "/ts": [
         {

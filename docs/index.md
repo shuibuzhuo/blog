@@ -3,9 +3,8 @@
 layout: home
 
 hero:
-  name: "Shuibuzhuo's Blog"
-  text: "Shuibuzhuo's Blog"
-  tagline: My great project tagline
+  name: "shuibuzhuo的博客"
+  tagline: 记录一些前端的内容...
   actions:
     - theme: brand
       text: Markdown Examples
@@ -22,4 +21,3 @@ features:
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-

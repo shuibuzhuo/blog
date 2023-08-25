@@ -2,12 +2,12 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Shuibuzhuo's Blog",
+  title: "shuibuzhuo的博客",
   description: "Shuibuzhuo's Blog",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: "Home", link: "/" },
+      { text: "首页", link: "/" },
       {
         text: "分类",
         items: [

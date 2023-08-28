@@ -271,6 +271,14 @@ export default defineConfig({
               text: "void、undefined和never",
               link: "/ts/基础/11_void、undefined和never",
             },
+            {
+              text: "类型断言",
+              link: "/ts/基础/12_类型断言",
+            },
+            {
+              text: "函数类型",
+              link: "/ts/基础/13_函数类型",
+            },
           ],
         },
       ],

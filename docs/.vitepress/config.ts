@@ -279,6 +279,10 @@ export default defineConfig({
               text: "函数类型",
               link: "/ts/基础/13_函数类型",
             },
+            {
+              text: "对象类型",
+              link: "/ts/基础/14_对象类型",
+            },
           ],
         },
       ],

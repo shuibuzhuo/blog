@@ -293,6 +293,10 @@ export default defineConfig({
               text: "接口 interface",
               link: "/ts/面向对象/2_接口 interface",
             },
+            {
+              text: "类",
+              link: "/ts/面向对象/3_类",
+            },
           ],
         },
       ],

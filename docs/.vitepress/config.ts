@@ -297,6 +297,10 @@ export default defineConfig({
               text: "类",
               link: "/ts/面向对象/3_类",
             },
+            {
+              text: "访问修饰符",
+              link: "/ts/面向对象/4_访问修饰符",
+            },
           ],
         },
       ],

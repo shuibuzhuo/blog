@@ -301,6 +301,14 @@ export default defineConfig({
               text: "访问修饰符",
               link: "/ts/面向对象/4_访问修饰符",
             },
+            {
+              text: "模块",
+              link: "/ts/面向对象/5_模块",
+            },
+            {
+              text: "泛型",
+              link: "/ts/面向对象/6_泛型",
+            },
           ],
         },
       ],

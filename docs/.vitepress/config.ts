@@ -311,6 +311,20 @@ export default defineConfig({
             },
           ],
         },
+        {
+          text: '进阶',
+          collapsed: true,
+          items: [
+            {
+              text: "类型守护",
+              link: "/ts/进阶/1_类型守护",
+            },
+            {
+              text: "函数重载",
+              link: "/ts/进阶/2_函数重载",
+            },
+          ]
+        }
       ],
     },
     search: {

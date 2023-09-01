@@ -323,6 +323,10 @@ export default defineConfig({
               text: "函数重载",
               link: "/ts/进阶/2_函数重载",
             },
+            {
+              text: "调用签名",
+              link: "/ts/进阶/3_调用签名",
+            },
           ]
         }
       ],

@@ -327,6 +327,10 @@ export default defineConfig({
               text: "调用签名",
               link: "/ts/进阶/3_调用签名",
             },
+            {
+              text: "索引签名",
+              link: "/ts/进阶/4_索引签名",
+            },
           ]
         }
       ],

@@ -312,7 +312,7 @@ export default defineConfig({
           ],
         },
         {
-          text: '进阶',
+          text: "进阶",
           collapsed: true,
           items: [
             {
@@ -331,8 +331,12 @@ export default defineConfig({
               text: "索引签名",
               link: "/ts/进阶/4_索引签名",
             },
-          ]
-        }
+            {
+              text: "readonly",
+              link: "/ts/进阶/5_readonly",
+            },
+          ],
+        },
       ],
     },
     search: {

@@ -335,6 +335,10 @@ export default defineConfig({
               text: "readonly",
               link: "/ts/进阶/5_readonly",
             },
+            {
+              text: "双重断言",
+              link: "/ts/进阶/6_双重断言",
+            },
           ],
         },
       ],

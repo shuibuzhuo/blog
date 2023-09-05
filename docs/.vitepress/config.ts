@@ -339,6 +339,10 @@ export default defineConfig({
               text: "双重断言",
               link: "/ts/进阶/6_双重断言",
             },
+            {
+              text: "常量断言",
+              link: "/ts/进阶/7_常量断言",
+            },
           ],
         },
       ],

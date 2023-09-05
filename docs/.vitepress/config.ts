@@ -343,6 +343,10 @@ export default defineConfig({
               text: "常量断言",
               link: "/ts/进阶/7_常量断言",
             },
+            {
+              text: "this",
+              link: "/ts/进阶/8_this",
+            },
           ],
         },
       ],

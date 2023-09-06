@@ -347,6 +347,10 @@ export default defineConfig({
               text: "this",
               link: "/ts/进阶/8_this",
             },
+            {
+              text: "typeof操作符",
+              link: "/ts/进阶/9_typeof操作符",
+            },
           ],
         },
       ],

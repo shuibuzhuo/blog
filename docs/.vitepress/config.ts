@@ -351,6 +351,10 @@ export default defineConfig({
               text: "typeof操作符",
               link: "/ts/进阶/9_typeof操作符",
             },
+            {
+              text: "keyof操作符",
+              link: "/ts/进阶/10_keyof操作符",
+            },
           ],
         },
       ],

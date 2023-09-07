@@ -355,6 +355,18 @@ export default defineConfig({
               text: "keyof操作符",
               link: "/ts/进阶/10_keyof操作符",
             },
+            {
+              text: "类型查找",
+              link: "/ts/进阶/11_类型查找",
+            },
+            {
+              text: "类型映射",
+              link: "/ts/进阶/12_类型映射",
+            },
+            {
+              text: "映射修饰符",
+              link: "/ts/进阶/13_映射修饰符",
+            },
           ],
         },
       ],

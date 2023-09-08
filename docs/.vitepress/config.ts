@@ -11,7 +11,7 @@ export default defineConfig({
       {
         text: "分类",
         items: [
-          { text: "Vue", link: "/vue/markdown-examples" },
+          { text: "Vue", link: "/vue/框架设计/1_前言" },
           { text: "React", link: "/react/markdown-examples3" },
           { text: "算法", link: "/algorithm/complexity/what-is-complexity" },
           { text: "TypeScript", link: "/ts/基础/1_变量声明" },
@@ -22,10 +22,11 @@ export default defineConfig({
     sidebar: {
       "/vue/": [
         {
-          text: "文章",
+          text: "框架设计",
           items: [
-            { text: "文章1", link: "/vue/markdown-examples" },
-            { text: "文章2", link: "/vue/markdown-examples2" },
+            { text: "前言", link: "/vue/框架设计/1_前言" },
+            { text: "命令式", link: "/vue/框架设计/2_命令式" },
+            { text: "声明式", link: "/vue/框架设计/3_声明式" },
           ],
         },
       ],

@@ -27,6 +27,14 @@ export default defineConfig({
             { text: "前言", link: "/vue/框架设计/1_前言" },
             { text: "命令式", link: "/vue/框架设计/2_命令式" },
             { text: "声明式", link: "/vue/框架设计/3_声明式" },
+            {
+              text: "命令式 vs 声明式",
+              link: "/vue/框架设计/4_命令式 vs 声明式",
+            },
+            {
+              text: "企业开发与设计的原则",
+              link: "/vue/框架设计/5_企业开发与设计的原则",
+            },
           ],
         },
       ],

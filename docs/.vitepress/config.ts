@@ -39,6 +39,10 @@ export default defineConfig({
               text: "框架的设计是一个不断取舍的过程",
               link: "/vue/框架设计/6_框架的设计是一个不断取舍的过程",
             },
+            {
+              text: ".vue文件中的 html 是真实的 html 吗",
+              link: "/vue/框架设计/7_.vue文件中的 html 是真实的 html 吗",
+            },
           ],
         },
       ],

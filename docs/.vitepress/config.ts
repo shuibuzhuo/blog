@@ -43,6 +43,18 @@ export default defineConfig({
               text: ".vue文件中的 html 是真实的 html 吗",
               link: "/vue/框架设计/7_.vue文件中的 html 是真实的 html 吗",
             },
+            {
+              text: "运行时",
+              link: "/vue/框架设计/8_运行时",
+            },
+            {
+              text: "编译时",
+              link: "/vue/框架设计/9_编译时",
+            },
+            {
+              text: "运行时 + 编译时",
+              link: "/vue/框架设计/10_运行时 + 编译时",
+            },
           ],
         },
       ],

@@ -73,6 +73,10 @@ export default defineConfig({
             },
           ],
         },
+        {
+          text: "源码结构",
+          items: [{ text: "vue源码结构", link: "/vue/源码结构/1_vue源码结构" }],
+        },
       ],
       "/react/": [
         {

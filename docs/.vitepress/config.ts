@@ -77,6 +77,25 @@ export default defineConfig({
           text: "源码结构",
           items: [{ text: "vue源码结构", link: "/vue/源码结构/1_vue源码结构" }],
         },
+        {
+          text: "响应系统",
+          items: [
+            {
+              text: "核心设计原则",
+              collapsed: true,
+              items: [
+                {
+                  text: "JS的程序性",
+                  link: "/vue/响应系统/核心设计原则/1_JS的程序性",
+                },
+                {
+                  text: "让程序变得更“聪明”",
+                  link: "/vue/响应系统/核心设计原则/2_让程序变得更“聪明”",
+                },
+              ],
+            },
+          ],
+        },
       ],
       "/react/": [
         {

@@ -92,6 +92,10 @@ export default defineConfig({
                   text: "让程序变得更“聪明”",
                   link: "/vue/响应系统/核心设计原则/2_让程序变得更“聪明”",
                 },
+                {
+                  text: "vue2的响应性核心API",
+                  link: "/vue/响应系统/核心设计原则/3_vue2的响应性核心API",
+                },
               ],
             },
           ],

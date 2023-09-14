@@ -65,7 +65,7 @@ export default defineConfig({
             },
             {
               text: "良好的ts支持时如何提供的",
-              link: "/vue/框架设计/13_良好的ts支持时如何提供的",
+              link: "/vue/框架设计/13_良好的ts支持是如何提供的",
             },
             {
               text: "总结",

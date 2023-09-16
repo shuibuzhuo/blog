@@ -98,6 +98,24 @@ export default defineConfig({
                 },
               ],
             },
+            {
+              text: "reactive的响应性",
+              collapsed: true,
+              items: [
+                {
+                  text: "前言",
+                  link: "/vue/响应系统/reactivity模块/1_前言",
+                },
+                {
+                  text: "reactive的响应性",
+                  link: "/vue/响应系统/reactivity模块/2_reactive的响应性",
+                },
+                {
+                  text: "什么是WeakMap",
+                  link: "/vue/响应系统/reactivity模块/3_什么是WeakMap",
+                },
+              ],
+            },
           ],
         },
       ],

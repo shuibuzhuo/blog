@@ -100,4 +100,4 @@ if (effect.scheduler) {
 ![obj（reactive的返回值）](./obj（reactive的返回值）.png)
 
 **computedObj 实例（computed 的返回值）**
-![computedObj实例（computed%20的返回值）.png](./computedObj实例（computed%20的返回值）.png)
+![computedObj实例（computed的返回值）.png](./computedObj实例（computed的返回值）.png)

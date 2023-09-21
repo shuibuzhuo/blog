@@ -99,7 +99,7 @@ export default defineConfig({
               ],
             },
             {
-              text: "reactive的响应性",
+              text: "reactive模块",
               collapsed: true,
               items: [
                 {
@@ -113,6 +113,38 @@ export default defineConfig({
                 {
                   text: "什么是WeakMap",
                   link: "/vue/响应系统/reactivity模块/3_什么是WeakMap",
+                },
+                {
+                  text: "reactive 函数的局限性",
+                  link: "/vue/响应系统/reactivity模块/4_reactive 函数的局限性",
+                },
+              ],
+            },
+            {
+              text: "ref模块",
+              collapsed: true,
+              items: [
+                {
+                  text: "前言",
+                  link: "/vue/响应系统/ref模块/1_前言",
+                },
+                {
+                  text: "ref对于复杂数据类型",
+                  link: "/vue/响应系统/ref模块/2_ref对于复杂数据类型",
+                },
+                {
+                  text: "ref对于简单数据类型",
+                  link: "/vue/响应系统/ref模块/3_ref对于简单数据类型",
+                },
+              ],
+            },
+            {
+              text: "computed模块",
+              collapsed: true,
+              items: [
+                {
+                  text: "computed的响应性",
+                  link: "/vue/响应系统/computed模块/1_computed的响应性",
                 },
               ],
             },

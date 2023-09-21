@@ -95,3 +95,9 @@ if (effect.scheduler) {
 ```
 
 这个返回值，作为 computedObj 的值，然后把这个值渲染到页面上
+
+**obj（reactive 的返回值）**
+![obj（reactive的返回值）](./obj（reactive的返回值）.png)
+
+**computedObj 实例（computed 的返回值）**
+![computedObj实例（computed 的返回值）](./computedObj 实例（computed 的返回值）.png)

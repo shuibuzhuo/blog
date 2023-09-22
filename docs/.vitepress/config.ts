@@ -146,6 +146,10 @@ export default defineConfig({
                   text: "computed的响应性",
                   link: "/vue/响应系统/computed模块/1_computed的响应性",
                 },
+                {
+                  text: "computed的缓存性和死循环",
+                  link: "/vue/响应系统/computed模块/2_computed的缓存性和死循环",
+                },
               ],
             },
           ],

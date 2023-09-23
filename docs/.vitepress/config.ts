@@ -160,6 +160,10 @@ export default defineConfig({
                   text: "响应性数据的监听器watch",
                   link: "/vue/响应系统/watch模块/1_响应性数据的监听器watch",
                 },
+                {
+                  text: "调度系统",
+                  link: "/vue/响应系统/watch模块/2_调度系统",
+                },
               ],
             },
           ],

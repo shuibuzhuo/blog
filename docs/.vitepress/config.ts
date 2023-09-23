@@ -152,6 +152,16 @@ export default defineConfig({
                 },
               ],
             },
+            {
+              text: "watch模块",
+              collapsed: true,
+              items: [
+                {
+                  text: "响应性数据的监听器watch",
+                  link: "/vue/响应系统/watch模块/1_响应性数据的监听器watch",
+                },
+              ],
+            },
           ],
         },
       ],

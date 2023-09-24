@@ -150,6 +150,25 @@ export default defineConfig({
             },
           ],
         },
+        {
+          text: '运行时',
+          items: [
+            {
+              text: "核心设计原则",
+              collapsed: true,
+              items: [
+                {
+                  text: "h函数和render函数",
+                  link: "/vue/运行时/核心设计原则/1_h函数和render函数",
+                },
+                {
+                  text: "核心设计原则",
+                  link: "/vue/运行时/核心设计原则/2_核心设计原则",
+                }
+              ]
+            }
+          ]
+        }
       ],
       "/react/": [
         {

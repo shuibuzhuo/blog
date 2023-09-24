@@ -146,6 +146,24 @@ export default defineConfig({
                   text: "computed的响应性",
                   link: "/vue/响应系统/computed模块/1_computed的响应性",
                 },
+                {
+                  text: "computed的缓存性和死循环",
+                  link: "/vue/响应系统/computed模块/2_computed的缓存性和死循环",
+                },
+              ],
+            },
+            {
+              text: "watch模块",
+              collapsed: true,
+              items: [
+                {
+                  text: "响应性数据的监听器watch",
+                  link: "/vue/响应系统/watch模块/1_响应性数据的监听器watch",
+                },
+                {
+                  text: "调度系统",
+                  link: "/vue/响应系统/watch模块/2_调度系统",
+                },
               ],
             },
           ],

@@ -169,7 +169,7 @@ export default defineConfig({
           ],
         },
         {
-          text: '运行时',
+          text: "运行时",
           items: [
             {
               text: "核心设计原则",
@@ -182,11 +182,21 @@ export default defineConfig({
                 {
                   text: "核心设计原则",
                   link: "/vue/运行时/核心设计原则/2_核心设计原则",
-                }
-              ]
-            }
-          ]
-        }
+                },
+              ],
+            },
+            {
+              text: "h函数",
+              collapsed: true,
+              items: [
+                {
+                  text: "h函数",
+                  link: "/vue/运行时/h函数/1_h函数",
+                },
+              ],
+            },
+          ],
+        },
       ],
       "/react/": [
         {

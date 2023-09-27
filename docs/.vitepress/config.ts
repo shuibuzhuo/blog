@@ -11,10 +11,11 @@ export default defineConfig({
       {
         text: "分类",
         items: [
-          { text: "Vue", link: "/vue/框架设计/1_前言" },
+          { text: "Vue", link: "/vue/1_框架设计/1_前言" },
           { text: "React", link: "/react/markdown-examples3" },
           { text: "算法", link: "/algorithm/complexity/what-is-complexity" },
           { text: "TypeScript", link: "/ts/基础/1_变量声明" },
+          { text: "深度学习的技术", link: "/deeper-learning/1_获得很不错的记忆力/1_前言" },
         ],
       },
     ],
@@ -23,62 +24,65 @@ export default defineConfig({
       "/vue/": [
         {
           text: "框架设计",
+          collapsed: true,
           items: [
-            { text: "前言", link: "/vue/框架设计/1_前言" },
-            { text: "命令式", link: "/vue/框架设计/2_命令式" },
-            { text: "声明式", link: "/vue/框架设计/3_声明式" },
+            { text: "前言", link: "/vue/1_框架设计/1_前言" },
+            { text: "命令式", link: "/vue/1_框架设计/2_命令式" },
+            { text: "声明式", link: "/vue/1_框架设计/3_声明式" },
             {
               text: "命令式 vs 声明式",
-              link: "/vue/框架设计/4_命令式 vs 声明式",
+              link: "/vue/1_框架设计/4_命令式 vs 声明式",
             },
             {
               text: "企业开发与设计的原则",
-              link: "/vue/框架设计/5_企业开发与设计的原则",
+              link: "/vue/1_框架设计/5_企业开发与设计的原则",
             },
             {
               text: "框架的设计是一个不断取舍的过程",
-              link: "/vue/框架设计/6_框架的设计是一个不断取舍的过程",
+              link: "/vue/1_框架设计/6_框架的设计是一个不断取舍的过程",
             },
             {
               text: ".vue文件中的 html 是真实的 html 吗",
-              link: "/vue/框架设计/7_.vue文件中的 html 是真实的 html 吗",
+              link: "/vue/1_框架设计/7_.vue文件中的 html 是真实的 html 吗",
             },
             {
-              text: "运行时",
-              link: "/vue/框架设计/8_运行时",
+              text: "4_运行时",
+              link: "/vue/1_框架设计/8_4_运行时",
             },
             {
               text: "编译时",
-              link: "/vue/框架设计/9_编译时",
+              link: "/vue/1_框架设计/9_编译时",
             },
             {
-              text: "运行时 + 编译时",
-              link: "/vue/框架设计/10_运行时 + 编译时",
+              text: "4_运行时 + 编译时",
+              link: "/vue/1_框架设计/10_4_运行时 + 编译时",
             },
             {
               text: "什么是副作用",
-              link: "/vue/框架设计/11_什么是副作用",
+              link: "/vue/1_框架设计/11_什么是副作用",
             },
             {
-              text: "Vue3框架设计概述",
-              link: "/vue/框架设计/12_Vue3框架设计概述",
+              text: "Vue31_框架设计概述",
+              link: "/vue/1_框架设计/12_Vue31_框架设计概述",
             },
             {
               text: "良好的ts支持时如何提供的",
-              link: "/vue/框架设计/13_良好的ts支持是如何提供的",
+              link: "/vue/1_框架设计/13_良好的ts支持是如何提供的",
             },
             {
               text: "总结",
-              link: "/vue/框架设计/14_总结",
+              link: "/vue/1_框架设计/14_总结",
             },
           ],
         },
         {
           text: "源码结构",
-          items: [{ text: "vue源码结构", link: "/vue/源码结构/1_vue源码结构" }],
+          collapsed: true,
+          items: [{ text: "vue源码结构", link: "/vue/2_源码结构/1_vue源码结构" }],
         },
         {
           text: "响应系统",
+          collapsed: true,
           items: [
             {
               text: "核心设计原则",
@@ -86,15 +90,15 @@ export default defineConfig({
               items: [
                 {
                   text: "JS的程序性",
-                  link: "/vue/响应系统/核心设计原则/1_JS的程序性",
+                  link: "/vue/3_响应系统/核心设计原则/1_JS的程序性",
                 },
                 {
                   text: "让程序变得更“聪明”",
-                  link: "/vue/响应系统/核心设计原则/2_让程序变得更“聪明”",
+                  link: "/vue/3_响应系统/核心设计原则/2_让程序变得更“聪明”",
                 },
                 {
                   text: "vue2的响应性核心API",
-                  link: "/vue/响应系统/核心设计原则/3_vue2的响应性核心API",
+                  link: "/vue/3_响应系统/核心设计原则/3_vue2的响应性核心API",
                 },
               ],
             },
@@ -104,19 +108,19 @@ export default defineConfig({
               items: [
                 {
                   text: "前言",
-                  link: "/vue/响应系统/reactivity模块/1_前言",
+                  link: "/vue/3_响应系统/reactivity模块/1_前言",
                 },
                 {
                   text: "reactive的响应性",
-                  link: "/vue/响应系统/reactivity模块/2_reactive的响应性",
+                  link: "/vue/3_响应系统/reactivity模块/2_reactive的响应性",
                 },
                 {
                   text: "什么是WeakMap",
-                  link: "/vue/响应系统/reactivity模块/3_什么是WeakMap",
+                  link: "/vue/3_响应系统/reactivity模块/3_什么是WeakMap",
                 },
                 {
                   text: "reactive 函数的局限性",
-                  link: "/vue/响应系统/reactivity模块/4_reactive 函数的局限性",
+                  link: "/vue/3_响应系统/reactivity模块/4_reactive 函数的局限性",
                 },
               ],
             },
@@ -126,15 +130,15 @@ export default defineConfig({
               items: [
                 {
                   text: "前言",
-                  link: "/vue/响应系统/ref模块/1_前言",
+                  link: "/vue/3_响应系统/ref模块/1_前言",
                 },
                 {
                   text: "ref对于复杂数据类型",
-                  link: "/vue/响应系统/ref模块/2_ref对于复杂数据类型",
+                  link: "/vue/3_响应系统/ref模块/2_ref对于复杂数据类型",
                 },
                 {
                   text: "ref对于简单数据类型",
-                  link: "/vue/响应系统/ref模块/3_ref对于简单数据类型",
+                  link: "/vue/3_响应系统/ref模块/3_ref对于简单数据类型",
                 },
               ],
             },
@@ -144,11 +148,11 @@ export default defineConfig({
               items: [
                 {
                   text: "computed的响应性",
-                  link: "/vue/响应系统/computed模块/1_computed的响应性",
+                  link: "/vue/3_响应系统/computed模块/1_computed的响应性",
                 },
                 {
                   text: "computed的缓存性和死循环",
-                  link: "/vue/响应系统/computed模块/2_computed的缓存性和死循环",
+                  link: "/vue/3_响应系统/computed模块/2_computed的缓存性和死循环",
                 },
               ],
             },
@@ -158,11 +162,11 @@ export default defineConfig({
               items: [
                 {
                   text: "响应性数据的监听器watch",
-                  link: "/vue/响应系统/watch模块/1_响应性数据的监听器watch",
+                  link: "/vue/3_响应系统/watch模块/1_响应性数据的监听器watch",
                 },
                 {
                   text: "调度系统",
-                  link: "/vue/响应系统/watch模块/2_调度系统",
+                  link: "/vue/3_响应系统/watch模块/2_调度系统",
                 },
               ],
             },
@@ -170,6 +174,7 @@ export default defineConfig({
         },
         {
           text: "运行时",
+          collapsed: true,
           items: [
             {
               text: "核心设计原则",
@@ -177,11 +182,11 @@ export default defineConfig({
               items: [
                 {
                   text: "h函数和render函数",
-                  link: "/vue/运行时/核心设计原则/1_h函数和render函数",
+                  link: "/vue/4_运行时/核心设计原则/1_h函数和render函数",
                 },
                 {
                   text: "核心设计原则",
-                  link: "/vue/运行时/核心设计原则/2_核心设计原则",
+                  link: "/vue/4_运行时/核心设计原则/2_核心设计原则",
                 },
               ],
             },
@@ -191,23 +196,23 @@ export default defineConfig({
               items: [
                 {
                   text: "ELEMENT+TEXT_CHILDREN",
-                  link: "/vue/运行时/h函数/1_ELEMENT+TEXT_CHILDREN",
+                  link: "/vue/4_运行时/h函数/1_ELEMENT+TEXT_CHILDREN",
                 },
                 {
                   text: "ELEMENT+ARRAY_CHILDREN",
-                  link: "/vue/运行时/h函数/2_ELEMENT+ARRAY_CHILDREN",
+                  link: "/vue/4_运行时/h函数/2_ELEMENT+ARRAY_CHILDREN",
                 },
                 {
                   text: "组件",
-                  link: "/vue/运行时/h函数/3_组件",
+                  link: "/vue/4_运行时/h函数/3_组件",
                 },
                 {
                   text: "Text、Comment、Fragment",
-                  link: "/vue/运行时/h函数/4_Text、Comment、Fragment",
+                  link: "/vue/4_运行时/h函数/4_Text、Comment、Fragment",
                 },
                 {
                   text: "对于class和style的增强",
-                  link: "/vue/运行时/h函数/5_对于class和style的增强",
+                  link: "/vue/4_运行时/h函数/5_对于class和style的增强",
                 },
               ],
             },
@@ -217,7 +222,7 @@ export default defineConfig({
               items: [
                 {
                   text: "ELEMENT+TEXT_CHILDREN",
-                  link: "/vue/运行时/renderer渲染器/1_ELEMENT+TEXT_CHILDREN",
+                  link: "/vue/4_运行时/renderer渲染器/1_ELEMENT+TEXT_CHILDREN",
                 },
               ],
             },
@@ -562,6 +567,17 @@ export default defineConfig({
               text: "映射修饰符",
               link: "/ts/进阶/13_映射修饰符",
             },
+          ],
+        },
+      ],
+      "/deeper-learning/": [
+        {
+          text: "获得很不错的记忆力",
+          collapsed: true,
+          items: [
+            { text: "前言", link: "/deeper-learning/1_获得很不错的记忆力/1_前言" },
+            { text: "记忆的条件", link: "/deeper-learning/1_获得很不错的记忆力/2_记忆的条件" },
+            { text: "重读与提取练习", link: "/deeper-learning/1_获得很不错的记忆力/3_重读与提取练习" },
           ],
         },
       ],

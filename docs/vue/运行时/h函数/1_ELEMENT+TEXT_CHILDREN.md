@@ -1,9 +1,27 @@
-# h 函数
+# h 函数 ELEMENT + TEXT_CHILDREN
 
 1. `h` 函数本身只处理了传入的参数
 2. `createVNode` 是生成 `vnode` 的核心方法
 3. 在 `createVNode` 中第一次生成的 `shapeFlag = ShapeFlags.ELEMENT`，表示：是一个 `Element` 类型
 4. 在 `createBaseVnode` 中，生成了 `vnode` 对象，并切对 `shapeFlag` 进行了 `|=` 按位或赋值运算，最终得到 `shapeFlag = 9`，表示：**元素为 `ShapeFlags.ELEMENT`**，`children` 为 `TEXT`
+
+## 代码
+
+```html
+<script>
+  const { h } = Vue;
+
+  const vnode = h(
+    "div",
+    {
+      class: "test",
+    },
+    "hello render"
+  );
+
+  console.log(vnode);
+</script>
+```
 
 ## 按位或赋值运算
 

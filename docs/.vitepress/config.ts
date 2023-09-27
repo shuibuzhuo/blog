@@ -190,8 +190,34 @@ export default defineConfig({
               collapsed: true,
               items: [
                 {
-                  text: "h函数",
-                  link: "/vue/运行时/h函数/1_h函数",
+                  text: "ELEMENT+TEXT_CHILDREN",
+                  link: "/vue/运行时/h函数/1_ELEMENT+TEXT_CHILDREN",
+                },
+                {
+                  text: "ELEMENT+ARRAY_CHILDREN",
+                  link: "/vue/运行时/h函数/2_ELEMENT+ARRAY_CHILDREN",
+                },
+                {
+                  text: "组件",
+                  link: "/vue/运行时/h函数/3_组件",
+                },
+                {
+                  text: "Text、Comment、Fragment",
+                  link: "/vue/运行时/h函数/4_Text、Comment、Fragment",
+                },
+                {
+                  text: "对于class和style的增强",
+                  link: "/vue/运行时/h函数/5_对于class和style的增强",
+                },
+              ],
+            },
+            {
+              text: "renderer渲染器",
+              collapsed: true,
+              items: [
+                {
+                  text: "ELEMENT+TEXT_CHILDREN",
+                  link: "/vue/运行时/renderer渲染器/1_ELEMENT+TEXT_CHILDREN",
                 },
               ],
             },

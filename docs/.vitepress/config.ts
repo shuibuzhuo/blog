@@ -216,8 +216,24 @@ export default defineConfig({
               collapsed: true,
               items: [
                 {
-                  text: "ELEMENT+TEXT_CHILDREN",
-                  link: "/vue/运行时/renderer渲染器/1_ELEMENT+TEXT_CHILDREN",
+                  text: "ELEMENT+TEXT_CHILDREN挂载",
+                  link: "/vue/运行时/renderer渲染器/1_ELEMENT+TEXT_CHILDREN挂载",
+                },
+                {
+                  text: "ELEMENT+TEXT_CHILDREN相同节点更新",
+                  link: "/vue/运行时/renderer渲染器/2_ELEMENT+TEXT_CHILDREN相同节点更新",
+                },
+                {
+                  text: "ELEMENT+TEXT_CHILDREN不同节点更新",
+                  link: "/vue/运行时/renderer渲染器/3_ELEMENT+TEXT_CHILDREN不同节点更新",
+                },
+                {
+                  text: "class属性和其他属性的区分挂载",
+                  link: "/vue/运行时/renderer渲染器/4_class属性和其他属性的区分挂载",
+                },
+                {
+                  text: "style属性的挂载和更新",
+                  link: "/vue/运行时/renderer渲染器/5_style属性的挂载和更新",
                 },
               ],
             },

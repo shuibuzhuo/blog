@@ -15,7 +15,14 @@ export default defineConfig({
           { text: "React", link: "/react/markdown-examples3" },
           { text: "算法", link: "/algorithm/complexity/what-is-complexity" },
           { text: "TypeScript", link: "/ts/基础/1_变量声明" },
-          { text: "深度学习的技术", link: "/deeper-learning/1_获得很不错的记忆力/1_前言" },
+          {
+            text: "深度学习的技术",
+            link: "/deeper-learning/1_获得很不错的记忆力/1_前言",
+          },
+          {
+            text: "Vue乱炖",
+            link: "/vue-random/1_ref/1_为什么需要 ref",
+          },
         ],
       },
     ],
@@ -78,7 +85,9 @@ export default defineConfig({
         {
           text: "源码结构",
           collapsed: true,
-          items: [{ text: "vue源码结构", link: "/vue/2_源码结构/1_vue源码结构" }],
+          items: [
+            { text: "vue源码结构", link: "/vue/2_源码结构/1_vue源码结构" },
+          ],
         },
         {
           text: "响应系统",
@@ -575,10 +584,26 @@ export default defineConfig({
           text: "获得很不错的记忆力",
           collapsed: true,
           items: [
-            { text: "前言", link: "/deeper-learning/1_获得很不错的记忆力/1_前言" },
-            { text: "记忆的条件", link: "/deeper-learning/1_获得很不错的记忆力/2_记忆的条件" },
-            { text: "重读与提取练习", link: "/deeper-learning/1_获得很不错的记忆力/3_重读与提取练习" },
+            {
+              text: "前言",
+              link: "/deeper-learning/1_获得很不错的记忆力/1_前言",
+            },
+            {
+              text: "记忆的条件",
+              link: "/deeper-learning/1_获得很不错的记忆力/2_记忆的条件",
+            },
+            {
+              text: "重读与提取练习",
+              link: "/deeper-learning/1_获得很不错的记忆力/3_重读与提取练习",
+            },
           ],
+        },
+      ],
+      "/vue-random/": [
+        {
+          text: "ref",
+          collapsed: true,
+          items: [{ text: "ref", link: "/vue-random/1_ref/1_为什么需要 ref" }],
         },
       ],
     },

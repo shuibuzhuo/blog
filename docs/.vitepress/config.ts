@@ -624,6 +624,10 @@ export default defineConfig({
               text: "为什么需要 ref",
               link: "/vue-random/1_ref/1_为什么需要 ref",
             },
+            {
+              text: "ref 为什么需要 .value",
+              link: "/vue-random/1_ref/2_ref为什么需要.value",
+            },
           ],
         },
       ],

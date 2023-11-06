@@ -619,7 +619,12 @@ export default defineConfig({
         {
           text: "ref",
           collapsed: true,
-          items: [{ text: "ref", link: "/vue-random/1_ref/1_为什么需要 ref" }],
+          items: [
+            {
+              text: "为什么需要 ref",
+              link: "/vue-random/1_ref/1_为什么需要 ref",
+            },
+          ],
         },
       ],
     },

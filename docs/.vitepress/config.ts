@@ -630,6 +630,16 @@ export default defineConfig({
             },
           ],
         },
+        {
+          text: "diff算法",
+          collapsed: true,
+          items: [
+            {
+              text: "什么是需要使用diff算法",
+              link: "/vue-random/2_diff/1_vue3中的diff算法——什么是需要使用diff算法",
+            },
+          ],
+        },
       ],
     },
     search: {

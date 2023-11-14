@@ -642,6 +642,10 @@ export default defineConfig({
               text: "diff算法要处理的几种场景",
               link: "/vue-random/2_diff/2_diff算法要处理的几种场景",
             },
+            {
+              text: "vue3中diff的前4步",
+              link: "/vue-random/2_diff/3_vue3中diff的前4步",
+            },
           ],
         },
       ],

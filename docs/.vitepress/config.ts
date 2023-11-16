@@ -646,6 +646,10 @@ export default defineConfig({
               text: "vue3中diff的前4步",
               link: "/vue-random/2_diff/3_vue3中diff的前4步",
             },
+            {
+              text: "vue3中diff的乱序处理",
+              link: "/vue-random/2_diff/4_vue3中diff的乱序处理",
+            },
           ],
         },
       ],

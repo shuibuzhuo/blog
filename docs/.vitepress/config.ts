@@ -652,6 +652,16 @@ export default defineConfig({
             },
           ],
         },
+        {
+          text: "响应性原理",
+          collapsed: true,
+          items: [
+            {
+              text: "响应性原理",
+              link: "/vue-random/3_响应性原理/响应性原理",
+            },
+          ],
+        },
       ],
     },
     search: {

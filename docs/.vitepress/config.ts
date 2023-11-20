@@ -672,6 +672,16 @@ export default defineConfig({
             },
           ],
         },
+        {
+          text: "渲染",
+          collapsed: true,
+          items: [
+            {
+              text: "渲染",
+              link: "/vue-random/5_渲染/渲染",
+            },
+          ],
+        },
       ],
     },
     search: {

@@ -8,5 +8,5 @@
 })(window, window.__Module_HANDLE);
 
 const module = window.__Module;
-const handle = module.handle;
-module.handle.average();
+console.log(module.handle.average(module.scores));
+console.log(module.handle.fail(module.scores));

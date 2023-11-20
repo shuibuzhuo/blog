@@ -662,6 +662,16 @@ export default defineConfig({
             },
           ],
         },
+        {
+          text: "编译",
+          collapsed: true,
+          items: [
+            {
+              text: "编译",
+              link: "/vue-random/4_编译/编译",
+            },
+          ],
+        },
       ],
     },
     search: {

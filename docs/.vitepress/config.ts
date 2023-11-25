@@ -27,6 +27,10 @@ export default defineConfig({
             text: "模块化",
             link: "/module/模块化/模块化",
           },
+          {
+            text: "Webpack乱炖",
+            link: "/webpack-random/loader/loader",
+          },
         ],
       },
     ],
@@ -691,6 +695,12 @@ export default defineConfig({
         {
           text: "模块化",
           link: "/module/模块化/模块化",
+        },
+      ],
+      "/webpack-random/": [
+        {
+          text: "模块化",
+          link: "/webpack-random/loader/loader",
         },
       ],
     },

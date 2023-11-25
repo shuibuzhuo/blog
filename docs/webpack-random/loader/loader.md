@@ -1,0 +1,69 @@
+大家好，我是哈默。今天我们来自定义一个简单的 webpack loader。
+
+## 什么时候需要使用 loader
+
+当我们需要将除了 js 以外的资源转化为 js 的时候，我们需要使用 loader。
+
+## 引入 css
+
+当我们在入口文件 index.js 中，编写了如下代码时：
+
+```js
+// index.js
+console.log("hello 哈默");
+```
+
+npm run build 打包，打包成功：
+
+![普通js](./普通js.png)
+
+但是当我们引入 非 js 文件的时候，比如我们引入一个 index.css：
+
+```js
+// index.js
+import "./index.css";
+
+console.log("hello 哈默");
+```
+
+此时，npm run build，打包就会报错：
+
+![引入css](./引入css.png)
+
+因为 webpack 默认无法处理 非 js 文件，它提示我们需要使用合适的 loader 来处理 css 文件。
+
+此时，我们可以配置 css-loader 和 style-loader 来解析 css 文件。
+
+```js
+// webpack.config.js
+module.exports = {
+  ...
+  module: {
+    rules: [
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader'],
+      }
+    ],
+  },
+};
+
+```
+
+此时，打包成功。
+
+## 自定义 loader
+
+那么现在我们就可以自己来定义一个 loader，来处理我们自己的文件类型，比如我们有一个 `.hamovue` 类型的文件。
+
+```js
+// test.hamovue
+<script>
+export default {
+  a: 10,
+  b: 20
+}
+</script>
+```
+
+我们模拟 vue 文件的写法，在里面导出了一个对象。

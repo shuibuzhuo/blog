@@ -24,6 +24,9 @@ hero:
     - theme: alt
       text: 模块化
       link: /module/模块化/模块化
+    - theme: alt
+      text: Webpack乱炖
+      link: /webpack-random/loader/loader
 # features:
 #   - title: Vue
 #     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit

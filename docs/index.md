@@ -18,6 +18,12 @@ hero:
     - theme: alt
       text: 深度学习的技术
       link: /deeper-learning/1_获得很不错的记忆力/1_前言
+    - theme: alt
+      text: Vue乱炖
+      link: /vue-random/1_ref/1_为什么需要 ref
+    - theme: alt
+      text: 模块化
+      link: /module/模块化/模块化
 # features:
 #   - title: Vue
 #     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit

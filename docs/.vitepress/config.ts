@@ -23,6 +23,10 @@ export default defineConfig({
             text: "Vue乱炖",
             link: "/vue-random/1_ref/1_为什么需要 ref",
           },
+          {
+            text: "模块化",
+            link: "/module/模块化/模块化",
+          },
         ],
       },
     ],
@@ -681,6 +685,12 @@ export default defineConfig({
               link: "/vue-random/5_渲染/渲染",
             },
           ],
+        },
+      ],
+      "/module/": [
+        {
+          text: "模块化",
+          link: "/module/模块化/模块化",
         },
       ],
     },

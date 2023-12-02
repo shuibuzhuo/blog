@@ -27,6 +27,9 @@ hero:
     - theme: alt
       text: Webpack乱炖
       link: /webpack-random/loader/loader
+    - theme: alt
+      text: 脚手架
+      link: /cli/vue-create/vue-create
 # features:
 #   - title: Vue
 #     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit

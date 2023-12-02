@@ -31,6 +31,10 @@ export default defineConfig({
             text: "Webpack乱炖",
             link: "/webpack-random/loader/loader",
           },
+          {
+            text: "脚手架",
+            link: "/cli/vue-create/vue-create",
+          },
         ],
       },
     ],
@@ -701,6 +705,12 @@ export default defineConfig({
         {
           text: "模块化",
           link: "/webpack-random/loader/loader",
+        },
+      ],
+      "/cli/": [
+        {
+          text: "模块化",
+          link: "/cli/vue-create/vue-create",
         },
       ],
     },

@@ -712,6 +712,10 @@ export default defineConfig({
           text: "模块化",
           link: "/cli/vue-create/vue-create",
         },
+        {
+          text: "Node中开启多进程",
+          link: "/cli/node-multi-process/node-multi-process",
+        },
       ],
     },
     search: {

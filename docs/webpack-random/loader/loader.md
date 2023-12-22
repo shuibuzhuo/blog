@@ -2,7 +2,7 @@
 
 ## 什么时候需要使用 loader
 
-当我们需要将除了 js 以外的资源转化为 js 的时候，我们需要使用 loader。
+当我们需要将除了 js 以外的资源转化为 js 的时候，我们就需要使用 loader。
 
 ## 引入 css
 
@@ -67,3 +67,17 @@ export default {
 ```
 
 我们模拟 vue 文件的写法，在里面导出了一个对象。
+
+然后在 index.js 中将 test.hamovue 引入：
+
+```js
+import value from "./test.hamovue";
+
+console.log(value);
+```
+
+这个时候，我们打包明显会失败：
+
+![hamovue打包失败](./hamovue打包失败.png)
+
+我们需要自定义一个 loader 来处理 .hamovue 结尾的文件：

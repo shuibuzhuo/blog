@@ -90,3 +90,51 @@ module.exports = function (source) {
   return __source && __source[1] ? __source[1] : source;
 };
 ```
+
+这里我们的入参 `source` 的值为：
+
+```js
+<script>
+export default {
+  a: 10,
+  b: 20
+}
+</script>
+```
+
+最后整个匿名函数的返回值为：
+
+```js
+export default {
+  a: 10,
+  b: 20,
+};
+```
+
+也就是说，我们将 `<script></script>` 标签之间的内容，给解析了出来。
+
+最后一步，就是在 webpack.config.js 中，配置在碰到 .hamovue 结尾的文件时，使用我们的这个自定义 loader：
+
+```js
+module: {
+  rules: [
+    ...,
+    {
+      test: /\.hamovue$/,
+      use: [path.resolve(__dirname, './loader/hamo-loader.js')],
+    },
+  ],
+}
+```
+
+这样一来，当我们引用 test.hamovue 的时候，就能够得到导出的对象。
+
+```js
+import value from "./test.hamovue";
+
+console.log(value); // { a: 10, b: 20 }
+```
+
+## 总结
+
+在 webpack 中，loader 其实就是一个函数，我们在函数中处理某种类型文件中的代码内容，然后返回处理之后的结果，并且在 webpack 配置文件中使用该 loader 处理这种类型的文件即可。

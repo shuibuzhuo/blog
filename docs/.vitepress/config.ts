@@ -703,7 +703,7 @@ export default defineConfig({
       ],
       "/webpack-random/": [
         {
-          text: "模块化",
+          text: "自定义loader",
           link: "/webpack-random/loader/loader",
         },
       ],

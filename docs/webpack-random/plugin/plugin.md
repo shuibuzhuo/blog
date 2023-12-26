@@ -25,3 +25,51 @@ plugins: [
 ![](./BannerPlugin.png)
 
 我们看下 BannerPlugin 的内部实现：
+
+```js
+// node_modules/webpack/lib/BannerPlugin.js
+
+const wrapComment = (str) => {
+  if (!str.includes("\n")) {
+    return Template.toComment(str);
+  }
+  return `/*!\n * ${str
+    .replace(/\*\//g, "* /")
+    .split("\n")
+    .join("\n * ")
+    .replace(/\s+\n/g, "\n")
+    .trimRight()}\n */`;
+};
+
+class BannerPlugin {
+  constructor(options) {
+    // 处理 options
+    this.banner = () => wrapComment(options.banner);
+  }
+
+  apply(compiler) {
+    const options = this.options;
+    const banner = this.banner;
+
+    compiler.hooks.compilation.tap("BannerPlugin", (compilation) => {
+      compilation.hooks.processAssets.tap("BannerPlugin", () => {
+        for (const chunk of compilation.chunks) {
+          for (const file of chunk.files) {
+            const data = {
+              chunk,
+              filename: file,
+            };
+
+            const comment = compilation.getPath(banner, data);
+
+            compilation.updateAsset(
+              file,
+              (old) => new ConcatSource(comment, "\n", old)
+            );
+          }
+        }
+      });
+    });
+  }
+}
+```

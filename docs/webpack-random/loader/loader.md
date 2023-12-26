@@ -1,4 +1,4 @@
-大家好，我是哈默。今天我们来自定义一个简单的 webpack loader。
+大家好，我是哈默。今天我们来自己写一个简单的 webpack loader。
 
 ## 什么时候需要使用 loader
 

@@ -703,8 +703,12 @@ export default defineConfig({
       ],
       "/webpack-random/": [
         {
-          text: "模块化",
+          text: "自定义loader",
           link: "/webpack-random/loader/loader",
+        },
+        {
+          text: "自定义plugin",
+          link: "/webpack-random/plugin/plugin",
         },
       ],
       "/cli/": [

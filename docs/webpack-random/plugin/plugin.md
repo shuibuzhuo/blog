@@ -9,3 +9,17 @@
 ## webpack 内置的 plugin
 
 webpack 默认就提供了很多 plugin 供我们使用，比如 BannerPlugin，它是用来在我们构建出来的 js 文件的开头添加注释的。
+
+webpack.config.js 中：
+
+```js
+plugins: [
+  new webpack.BannerPlugin({
+    banner: "BannerPlugin 测试",
+  }),
+];
+```
+
+打包后的 bundle.js 中：
+
+![](./BannerPlugin.png)

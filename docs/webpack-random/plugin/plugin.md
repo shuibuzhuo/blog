@@ -23,3 +23,5 @@ plugins: [
 打包后的 bundle.js 中：
 
 ![](./BannerPlugin.png)
+
+我们看下 BannerPlugin 的内部实现：

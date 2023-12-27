@@ -20,7 +20,7 @@ plugins: [
 ];
 ```
 
-打包后的 bundle.js 中：
+打包后的 bundle.js 中，可以看到开头加了一句 `BannerPlugin 测试`：
 
 ![](./BannerPlugin.png)
 
@@ -48,7 +48,6 @@ class BannerPlugin {
   }
 
   apply(compiler) {
-    const options = this.options;
     const banner = this.banner;
 
     compiler.hooks.compilation.tap("BannerPlugin", (compilation) => {
@@ -73,3 +72,17 @@ class BannerPlugin {
   }
 }
 ```
+
+可以看到，主要就做了以下几件事情：
+
+1. 首先处理了传入的 options，对应到我们这里，options 就是：
+
+```js
+{
+    banner: "BannerPlugin 测试",
+  }
+```
+
+2. 实现了一个 apply 方法，这个 apply 方法会被 webpack 的编译器 compiler 调用。
+
+webpack 会在调用 apply 方法的时候，将 compiler 实例传入，然后我们就可以在 compiler 的 compilation 的 hook

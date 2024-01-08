@@ -114,9 +114,9 @@ compiler.hooks.compilation.tap("BannerPlugin", (compilation) => {
 });
 ```
 
-这回是注册在回调函数的参数 compilation 的 processAssets 这个 hook 上的，也就是会在 **处理资源** 的时候进行回调。
+这回是注册在 compilation hook 的回调函数的参数 compilation 的 processAssets 这个 hook 上的，也就是会在 **处理资源** 的时候进行回调。
 
-在这个回调里做的事情就是生成注释，然后用这个注释，对资源的源码进行更新。
+在这个 processAssets 回调里做的事情就是生成注释，然后用这个注释，对资源的源码进行更新。
 
 对应到我们这里，注释就是我们通过参数传入的 `BannerPlugin 测试`，资源就是打包生成的 `bundle.js` 了。
 

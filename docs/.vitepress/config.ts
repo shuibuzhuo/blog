@@ -713,12 +713,16 @@ export default defineConfig({
       ],
       "/cli/": [
         {
-          text: "模块化",
+          text: "vue create xxx 发生了什么",
           link: "/cli/vue-create/vue-create",
         },
         {
           text: "Node中开启多进程",
           link: "/cli/node-multi-process/node-multi-process",
+        },
+        {
+          text: "npm install -g @vue/cli之后，为什么就可以使用vue命令了",
+          link: "/cli/npm-i-g-vue-cli/npm-i-g-vue-cli",
         },
       ],
     },

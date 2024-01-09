@@ -19,7 +19,7 @@
 
 1. 将 @vue/cli 包下载到 node 安装位置/lib/node_modules 中：
 
-![lib/node_modules文件夹](aaa)
+![lib-node-modules](./lib-node-modules.png)
 
 2. 根据 @vue/cli 的 package.json 中的 bin 属性，创建一个名为 vue 的软链接，指向实际执行的文件。
 
@@ -37,7 +37,7 @@
 // package.json
 {
   "bin": {
-➡️  "vuehamo": "bin/vue.js"
+->  "vuehamo": "bin/vue.js"
   }
 }
 ```
@@ -56,11 +56,11 @@
 
 明确了原理之后，我们自己实现起来就会容易很多了，比如我们实现一个 `hamovue` 命令。
 
-首先，我们创建一个项目 hamovue：
+首先，我们创建一个项目 hamovue，通过 npm init 进行初始化：
 
-![npm init -y](aaa)
+![npm init -y](./npm-init.png)
 
-![创建出一个package.json](aaa)
+![创建出一个package.json](./package.png)
 
 它就是一个 npm 的包，只要我们完成了开发，就可以把它推送到 npm 仓库上去，供大家 npm install 进行安装使用。
 
@@ -76,11 +76,11 @@
 
 这里我们可以简化一下步骤，不必将我们的 hamovue 发布到 npm 仓库上去，而是在本地执行 `npm link` 命令，将 hamovue 变成一个全局命令：
 
-![在hamovue文件夹下npm link](aaa)
+![在hamovue文件夹下npm link](./npm-link.png)
 
 这个时候，当我们在命令行中执行 `hamovue` 的时候，就会执行 hamovue/bin/hamovue.js 里面的代码了：
 
-![执行了hamovue.js里面的代码](aaa)
+![执行了hamovue.js里面的代码](./run.png)
 
 ## 总结 😇
 

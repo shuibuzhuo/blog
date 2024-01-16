@@ -1,3 +1,5 @@
-const pkg = require("./package.json");
+const readme = require("./README.md");
 
-console.log(pkg);
+console.log(readme);
+console.log(readme.name);
+readme.print();

@@ -1,4 +1,4 @@
-大家好，我是哈默。今天我们来简单说一下 require 支持加载哪些类型资源。
+大家好，我是哈默。今天我们来简单说一下 `require` 支持加载哪些类型资源。
 
 ## 支持加载的资源类型
 
@@ -100,4 +100,53 @@ exports.add = function (num1, num2) {
 
 ## 任意文件
 
-// any -> .js
+其实 require 还可以加载其他类型的文件，但是会把其他类型的文件当成 .js 文件来处理。
+
+又因为 .js 文件当中需要使用 `module.exports` 或者 `exports.xxx` 这种语法，所以其他类型的文件如果满足这种语法的话，依旧可以正常解析。
+
+比如：我们有一个 README.md 文件：
+
+```js
+// index.js
+const readme = require("./README.md");
+
+console.log(readme);
+
+// ./README.md
+## 项目介绍
+这是一段项目介绍
+
+## 项目结构
+...
+```
+
+解析失败，因为不满足格式：
+
+![readme](./readme.png)
+
+但假如我们对 README.md 做一个变更，使其符合期望的格式时：
+
+```js
+// index.js
+const readme = require("./README.md");
+
+console.log(readme);
+console.log(readme.name);
+readme.print();
+
+// ./README.md
+module.exports = {
+  name: "readme",
+  print: function () {
+    console.log("我是 readme");
+  },
+};
+```
+
+解析就成功了：
+
+![readme-success](./readme-success.png)
+
+## 总结
+
+require 支持加载的文件格式一般是 3 种：.js / .json / .node，但其实它也能导入其他类型的文件，但是会用 .js 格式的文件规则去进行解析。

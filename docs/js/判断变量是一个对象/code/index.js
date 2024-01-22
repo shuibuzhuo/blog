@@ -1,0 +1,12 @@
+const res1 = typeof [];
+console.log("res1", res1);
+const res2 = typeof {};
+console.log("res2", res2);
+const res3 = Object.prototype.toString.call([]);
+console.log("res3", res3);
+const res4 = Object.prototype.toString.call({});
+console.log("res4", res4);
+const res5 = Array.isArray([]);
+console.log("res5", res5);
+const res6 = Array.isArray({});
+console.log("res6", res6);

@@ -738,6 +738,10 @@ export default defineConfig({
           text: "require支持加载哪些类型资源？",
           link: "/node/require支持加载哪些类型资源/require支持加载哪些类型资源",
         },
+        {
+          text: "__dirname的作用",
+          link: "/node/__dirname的作用/1.md",
+        },
       ],
       "/js": [
         {

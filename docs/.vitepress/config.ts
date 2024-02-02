@@ -742,6 +742,10 @@ export default defineConfig({
           text: "__dirname的作用",
           link: "/node/__dirname的作用/1.md",
         },
+        {
+          text: "40行代码实现mini-readline",
+          link: "/node/40行代码实现mini-readline/1.md",
+        },
       ],
       "/js": [
         {

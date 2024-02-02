@@ -748,6 +748,10 @@ export default defineConfig({
           text: "判断变量是对象或者数组",
           link: "/js/判断变量是对象或者数组/1",
         },
+        {
+          text: "generator function 的理解",
+          link: "/js/generator-function/1",
+        },
       ],
     },
     search: {

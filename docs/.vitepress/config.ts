@@ -756,6 +756,10 @@ export default defineConfig({
           text: "generator function 的理解",
           link: "/js/generator-function/1",
         },
+        {
+          text: "捕获Promise里的异常",
+          link: "/js/捕获Promise里的异常/1",
+        },
       ],
     },
     search: {

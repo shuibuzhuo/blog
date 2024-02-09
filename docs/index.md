@@ -33,6 +33,9 @@ hero:
     - theme: alt
       text: node乱炖
       link: /node/require支持加载哪些类型资源/require支持加载哪些类型资源
+    - theme: alt
+      text: JavaScript
+      link: /js/indexOf的第二个参数/1
 # features:
 #   - title: Vue
 #     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit

@@ -749,6 +749,10 @@ export default defineConfig({
       ],
       "/js": [
         {
+          text: "indexOf的第二个参数",
+          link: "/js/indexOf的第二个参数/1",
+        },
+        {
           text: "判断变量是对象或者数组",
           link: "/js/判断变量是对象或者数组/1",
         },

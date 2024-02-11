@@ -764,6 +764,10 @@ export default defineConfig({
           text: "捕获Promise里的异常",
           link: "/js/捕获Promise里的异常/1",
         },
+        {
+          text: "二维数组、扩展运算符、rest参数和解构赋值的妙用",
+          link: "/js/二维数组、扩展运算符、rest参数和解构赋值的妙用/1",
+        },
       ],
     },
     search: {

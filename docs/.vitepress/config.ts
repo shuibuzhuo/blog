@@ -732,6 +732,10 @@ export default defineConfig({
           text: "npm install -g @vue/cli之后，为什么就可以使用vue命令了",
           link: "/cli/npm-i-g-vue-cli/npm-i-g-vue-cli",
         },
+        {
+          text: "脚手架的功能",
+          link: "/cli/cli-intro/1",
+        },
       ],
       "/node/": [
         {

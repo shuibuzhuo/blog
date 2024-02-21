@@ -702,6 +702,10 @@ export default defineConfig({
             },
           ],
         },
+        {
+          text: "vue3 为什么要设计出 composition API",
+          link: "/vue-random/composition-api/1",
+        },
       ],
       "/module/": [
         {

@@ -1,8 +1,8 @@
 <script setup lang="ts">
 // import demo1 from "./components/demo1.vue";
 // import demo2 from "./components/demo2.vue";
-// import demo3 from "./components/demo3.vue";
-import demo4 from "./components/demo4.vue";
+import demo3 from "./components/demo3.vue";
+// import demo4 from "./components/demo4.vue";
 </script>
 
 <template>
@@ -12,7 +12,7 @@ import demo4 from "./components/demo4.vue";
     <!-- 自动销毁 effect -->
     <!-- <demo2></demo2> -->
     <!-- 使副作用执行失效 -->
-    <!-- <demo3></demo3> -->
+    <demo3></demo3>
     <!-- 副作用执行顺序 -->
     <demo4></demo4>
   </div>

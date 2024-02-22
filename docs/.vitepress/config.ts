@@ -740,6 +740,10 @@ export default defineConfig({
           text: "脚手架的功能",
           link: "/cli/cli-intro/1",
         },
+        {
+          text: "一句命令完成一个简易的git flow流程🤯",
+          link: "/cli/one-command-commit/1",
+        },
       ],
       "/node/": [
         {

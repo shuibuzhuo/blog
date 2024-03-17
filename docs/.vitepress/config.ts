@@ -780,6 +780,10 @@ export default defineConfig({
           text: "二维数组、扩展运算符、rest参数和解构赋值的妙用",
           link: "/js/二维数组、扩展运算符、rest参数和解构赋值的妙用/1",
         },
+        {
+          text: "上传文件的原理",
+          link: "/js/上传文件的原理/1",
+        },
       ],
     },
     search: {

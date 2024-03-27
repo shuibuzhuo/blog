@@ -43,6 +43,10 @@ export default defineConfig({
             text: "JavaScript",
             link: "/js/判断变量是对象或者数组/1",
           },
+          {
+            text: "huashui",
+            link: "/huashui/day001/项目规范",
+          }
         ],
       },
     ],
@@ -785,6 +789,12 @@ export default defineConfig({
           link: "/js/上传文件的原理/1",
         },
       ],
+      "/huashui": [
+        {
+          text: "项目规范",
+          link: "/huashui/day001/项目规范",
+        },
+      ]
     },
     search: {
       provider: "local",

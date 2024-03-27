@@ -45,7 +45,7 @@ export default defineConfig({
           },
           {
             text: "huashui",
-            link: "/huashui/day001/项目规范",
+            link: "/huashui/day001/使用 husky & commitlint 帮助提高项目规范",
           }
         ],
       },
@@ -791,8 +791,8 @@ export default defineConfig({
       ],
       "/huashui": [
         {
-          text: "项目规范",
-          link: "/huashui/day001/项目规范",
+          text: "使用 husky & commitlint 帮助提高项目规范",
+          link: "/huashui/day001/使用 husky & commitlint 帮助提高项目规范",
         },
       ]
     },

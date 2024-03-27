@@ -7,6 +7,9 @@ hero:
   tagline: 记录一些前端的内容...
   actions:
     - theme: alt # 可选项：brand alt
+      text: huashui
+      link: /huashui/day001/使用 husky & commitlint 帮助提高项目规范
+    - theme: alt # 可选项：brand alt
       text: Vue
       link: /vue/1_框架设计/1_前言
     - theme: alt

@@ -39,6 +39,9 @@ hero:
     - theme: alt
       text: JavaScript
       link: /js/indexOf的第二个参数/1
+    - theme: alt
+      text: random
+      link: /random/浏览器打开了很多标签页，如何进行高效管理/1.md
 # features:
 #   - title: Vue
 #     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit

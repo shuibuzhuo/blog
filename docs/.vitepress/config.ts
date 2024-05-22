@@ -46,6 +46,10 @@ export default defineConfig({
           {
             text: "huashui",
             link: "/huashui/day001/使用 husky & commitlint 帮助提高项目规范",
+          },
+          {
+            text: 'random',
+            link: '/random/浏览器打开了很多标签页，如何进行高效管理/1.md'
           }
         ],
       },
@@ -793,6 +797,12 @@ export default defineConfig({
         {
           text: "使用 husky & commitlint 帮助提高项目规范",
           link: "/huashui/day001/使用 husky & commitlint 帮助提高项目规范",
+        },
+      ],
+      "/random": [
+        {
+          text: "浏览器打开了很多标签页，如何进行高效管理",
+          link: "/random/浏览器打开了很多标签页，如何进行高效管理/1.md",
         },
       ]
     },

@@ -792,6 +792,10 @@ export default defineConfig({
           text: "上传文件的原理",
           link: "/js/上传文件的原理/1",
         },
+        {
+          text: "如何将二进制数据展示成图片",
+          link: "/js/如何将二进制数据展示成图片/1",
+        }
       ],
       "/huashui": [
         {
